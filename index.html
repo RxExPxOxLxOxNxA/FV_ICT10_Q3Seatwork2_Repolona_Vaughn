@@ -8,8 +8,61 @@
     <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
 </head>
 <body>
-    
 
+     <h2>Intramurals Team Checker</h2>
+
+<form>
+    <label>
+        Registered Online:
+    </label><br>
+    <select id="registered">
+        <option>Yes</option>
+        <option>No</option>
+    </select>
+
+    <br><br>
+
+    <label>
+        Medical Clearance:
+    </label><br>
+    <select id="medical">
+        <option>Yes</option>
+        <option>No</option>
+    </select>
+
+    <br><br>
+
+    <label>
+        Grade Level:
+    </label><br>
+    <select id="grade">
+        <option>Grade 7</option>
+        <option>Grade 8</option>
+        <option>Grade 9</option>
+        <option>Grade 10</option>
+    </select>
+
+    <br><br>
+
+    <label>
+        Section:
+    </label><br>
+    <select id="section">
+        <option>Ruby</option>
+        <option>Emerald</option>
+        <option>Sapphire</option>
+        <option>Topaz</option>
+        <option>Jade</option>
+    </select>
+
+    <br><br>
+
+    <button type="button" py-click="check_eligibility">Check Eligibility</button>
+
+    <br><br>
+
+    <div id="output"></div>
+</form>
 
 
 
